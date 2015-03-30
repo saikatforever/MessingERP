@@ -14,7 +14,7 @@ namespace DAL
         SqlConnection con;
         public SQLDataHelper()
         {
-            conStr ="Data Source=.\\SQLEXPRESS;Initial Catalog=chem_db;user=sa;password=Technical"; //ConfigurationManager.ConnectionStrings["DB"].ToString();
+            conStr ="Data Source=.\\SQLEXPRESS;Initial Catalog=chem_db;user=sa;password=Technical";  //ConfigurationManager.ConnectionStrings["DB"].ToString();
         }
 
 
